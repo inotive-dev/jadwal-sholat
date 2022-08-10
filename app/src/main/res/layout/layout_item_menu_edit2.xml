@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:id="@+id/btn_prayer"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/background_round_alpha_selector">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                android:textColor="@android:color/white"
+                android:text="@string/zone_time"/>
+
+            <TextView
+                android:id="@+id/tv_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                android:textColor="@android:color/white"
+                tools:text="00:00"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_iqomah"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/background_round_alpha_selector">
+
+            <TextView
+                android:id="@+id/tv_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                android:textColor="@android:color/white"
+                android:text="00:00"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_sunnah"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:visibility="invisible"
+            tools:visibility="visible"
+            android:background="@drawable/background_round_alpha_selector">
+
+            <TextView
+                android:id="@+id/tv_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                android:textColor="@android:color/white"
+                android:text="00:00"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,6 @@
+- Schedule date and time range untuk background -1
+- Tambah Setting Menu Iqomah Countdown
+- Iqomah Countdown muncul di bacground penuh ketika masuk iqomah countdown
+- Bahasa bisa ditranslate menggunakan google translate
+- Background Setting diganti Siluet Masjid Nabawi/Ka'Bah
+- Memilih fitur kota - 1

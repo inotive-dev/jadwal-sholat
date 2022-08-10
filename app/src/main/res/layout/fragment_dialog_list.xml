@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:background="@drawable/background_dialog">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline6"
+                android:textColor="@android:color/white"
+                android:text="@string/title_select_timezone"/>
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_baseline_close_24"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/background_round_alpha_selector"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Body2"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:hint="Search..."/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_list"
+            android:layout_width="450dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:minWidth="200dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:clipToPadding="false"
+            android:layout_gravity="center_horizontal"
+            tools:listitem="@layout/layout_item_radio_button"
+            android:nextFocusRight="@id/btn_ok"
+            android:nextFocusLeft="@id/btn_cancel"/>
+
+        <LinearLayout
+            android:id="@+id/lin_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                style="@style/ButtonStyleOutline"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:minWidth="120dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/set" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

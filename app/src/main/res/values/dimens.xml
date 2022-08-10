@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_big">93sp</dimen>
+    <dimen name="tv_bigger">128sp</dimen>
+    <dimen name="tv_super_big">380sp</dimen>
+</resources>

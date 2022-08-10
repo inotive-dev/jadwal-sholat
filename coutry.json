@@ -1,0 +1,818 @@
+[
+  {
+    "code": "af",
+    "country": "Afrikaans"
+  },
+  {
+    "code": "agq",
+    "country": "Aghem"
+  },
+  {
+    "code": "ak",
+    "country": "Akan"
+  },
+  {
+    "code": "am",
+    "country": "Amharik"
+  },
+  {
+    "code": "ar",
+    "country": "Arab"
+  },
+  {
+    "code": "as",
+    "country": "Assam"
+  },
+  {
+    "code": "asa",
+    "country": "Asu"
+  },
+  {
+    "code": "ast",
+    "country": "Asturia"
+  },
+  {
+    "code": "az",
+    "country": "Azerbaijani"
+  },
+  {
+    "code": "bas",
+    "country": "Basa"
+  },
+  {
+    "code": "be",
+    "country": "Belarusia"
+  },
+  {
+    "code": "bem",
+    "country": "Bemba"
+  },
+  {
+    "code": "bez",
+    "country": "Bena"
+  },
+  {
+    "code": "bg",
+    "country": "Bulgaria"
+  },
+  {
+    "code": "bm",
+    "country": "Bambara"
+  },
+  {
+    "code": "bn",
+    "country": "Bengali"
+  },
+  {
+    "code": "bo",
+    "country": "Tibet"
+  },
+  {
+    "code": "br",
+    "country": "Breton"
+  },
+  {
+    "code": "brx",
+    "country": "Bodo"
+  },
+  {
+    "code": "bs",
+    "country": "Bosnia"
+  },
+  {
+    "code": "ca",
+    "country": "Katalan"
+  },
+  {
+    "code": "ccp",
+    "country": "Chakma"
+  },
+  {
+    "code": "ce",
+    "country": "Chechen"
+  },
+  {
+    "code": "ceb",
+    "country": "Cebuano"
+  },
+  {
+    "code": "cgg",
+    "country": "Kiga"
+  },
+  {
+    "code": "chr",
+    "country": "Cherokee"
+  },
+  {
+    "code": "ckb",
+    "country": "Kurdi Sorani"
+  },
+  {
+    "code": "cs",
+    "country": "Cheska"
+  },
+  {
+    "code": "cy",
+    "country": "Welsh"
+  },
+  {
+    "code": "da",
+    "country": "Dansk"
+  },
+  {
+    "code": "dav",
+    "country": "Taita"
+  },
+  {
+    "code": "de",
+    "country": "Jerman"
+  },
+  {
+    "code": "dje",
+    "country": "Zarma"
+  },
+  {
+    "code": "dsb",
+    "country": "Sorbia Hilir"
+  },
+  {
+    "code": "dua",
+    "country": "Duala"
+  },
+  {
+    "code": "dyo",
+    "country": "Jola-Fonyi"
+  },
+  {
+    "code": "dz",
+    "country": "Dzongkha"
+  },
+  {
+    "code": "ebu",
+    "country": "Embu"
+  },
+  {
+    "code": "ee",
+    "country": "Ewe"
+  },
+  {
+    "code": "el",
+    "country": "Yunani"
+  },
+  {
+    "code": "en",
+    "country": "Inggris"
+  },
+  {
+    "code": "eo",
+    "country": "Esperanto"
+  },
+  {
+    "code": "es",
+    "country": "Spanyol"
+  },
+  {
+    "code": "et",
+    "country": "Esti"
+  },
+  {
+    "code": "eu",
+    "country": "Basque"
+  },
+  {
+    "code": "ewo",
+    "country": "Ewondo"
+  },
+  {
+    "code": "fa",
+    "country": "Persia"
+  },
+  {
+    "code": "ff",
+    "country": "Fula"
+  },
+  {
+    "code": "fi",
+    "country": "Suomi"
+  },
+  {
+    "code": "fil",
+    "country": "Filipino"
+  },
+  {
+    "code": "fo",
+    "country": "Faroe"
+  },
+  {
+    "code": "fr",
+    "country": "Prancis"
+  },
+  {
+    "code": "fur",
+    "country": "Friuli"
+  },
+  {
+    "code": "fy",
+    "country": "Frisia Barat"
+  },
+  {
+    "code": "ga",
+    "country": "Irlandia"
+  },
+  {
+    "code": "gd",
+    "country": "Gaelik Skotlandia"
+  },
+  {
+    "code": "gl",
+    "country": "Galisia"
+  },
+  {
+    "code": "gsw",
+    "country": "Jerman (Swiss)"
+  },
+  {
+    "code": "gu",
+    "country": "Gujarat"
+  },
+  {
+    "code": "guz",
+    "country": "Gusii"
+  },
+  {
+    "code": "gv",
+    "country": "Manx"
+  },
+  {
+    "code": "ha",
+    "country": "Hausa"
+  },
+  {
+    "code": "haw",
+    "country": "Hawaii"
+  },
+  {
+    "code": "iw",
+    "country": "Ibrani"
+  },
+  {
+    "code": "hi",
+    "country": "Hindi"
+  },
+  {
+    "code": "hr",
+    "country": "Kroasia"
+  },
+  {
+    "code": "hsb",
+    "country": "Sorbia Hulu"
+  },
+  {
+    "code": "hu",
+    "country": "Hungaria"
+  },
+  {
+    "code": "hy",
+    "country": "Armenia"
+  },
+  {
+    "code": "ia",
+    "country": "Interlingua"
+  },
+  {
+    "code": "in",
+    "country": "Indonesia"
+  },
+  {
+    "code": "ig",
+    "country": "Igbo"
+  },
+  {
+    "code": "ii",
+    "country": "Sichuan Yi"
+  },
+  {
+    "code": "is",
+    "country": "Islandia"
+  },
+  {
+    "code": "it",
+    "country": "Italia"
+  },
+  {
+    "code": "ja",
+    "country": "Jepang"
+  },
+  {
+    "code": "jgo",
+    "country": "Ngomba"
+  },
+  {
+    "code": "jmc",
+    "country": "Machame"
+  },
+  {
+    "code": "jv",
+    "country": "Jawa"
+  },
+  {
+    "code": "ka",
+    "country": "Georgia"
+  },
+  {
+    "code": "kab",
+    "country": "Kabyle"
+  },
+  {
+    "code": "kam",
+    "country": "Kamba"
+  },
+  {
+    "code": "kde",
+    "country": "Makonde"
+  },
+  {
+    "code": "kea",
+    "country": "Kabuverdianu"
+  },
+  {
+    "code": "khq",
+    "country": "Koyra Chiini"
+  },
+  {
+    "code": "ki",
+    "country": "Kikuyu"
+  },
+  {
+    "code": "kk",
+    "country": "Kazakh"
+  },
+  {
+    "code": "kkj",
+    "country": "Kako"
+  },
+  {
+    "code": "kl",
+    "country": "Kalaallisut"
+  },
+  {
+    "code": "kln",
+    "country": "Kalenjin"
+  },
+  {
+    "code": "km",
+    "country": "Khmer"
+  },
+  {
+    "code": "kn",
+    "country": "Kannada"
+  },
+  {
+    "code": "ko",
+    "country": "Korea"
+  },
+  {
+    "code": "kok",
+    "country": "Konkani"
+  },
+  {
+    "code": "ks",
+    "country": "Kashmir"
+  },
+  {
+    "code": "ksb",
+    "country": "Shambala"
+  },
+  {
+    "code": "ksf",
+    "country": "Bafia"
+  },
+  {
+    "code": "ksh",
+    "country": "Dialek Kolsch"
+  },
+  {
+    "code": "ku",
+    "country": "Kurdi"
+  },
+  {
+    "code": "kw",
+    "country": "Kornish"
+  },
+  {
+    "code": "ky",
+    "country": "Kirgiz"
+  },
+  {
+    "code": "lag",
+    "country": "Langi"
+  },
+  {
+    "code": "lb",
+    "country": "Luksemburg"
+  },
+  {
+    "code": "lg",
+    "country": "Ganda"
+  },
+  {
+    "code": "lkt",
+    "country": "Lakota"
+  },
+  {
+    "code": "ln",
+    "country": "Lingala"
+  },
+  {
+    "code": "lo",
+    "country": "Lao"
+  },
+  {
+    "code": "lrc",
+    "country": "Luri Utara"
+  },
+  {
+    "code": "lt",
+    "country": "Lituavi"
+  },
+  {
+    "code": "lu",
+    "country": "Luba-Katanga"
+  },
+  {
+    "code": "luo",
+    "country": "Luo"
+  },
+  {
+    "code": "luy",
+    "country": "Luyia"
+  },
+  {
+    "code": "lv",
+    "country": "Latvi"
+  },
+  {
+    "code": "mas",
+    "country": "Masai"
+  },
+  {
+    "code": "mer",
+    "country": "Meru"
+  },
+  {
+    "code": "mfe",
+    "country": "Morisien"
+  },
+  {
+    "code": "mg",
+    "country": "Malagasi"
+  },
+  {
+    "code": "mgh",
+    "country": "Makhuwa-Meetto"
+  },
+  {
+    "code": "mgo",
+    "country": "Meta’"
+  },
+  {
+    "code": "mi",
+    "country": "Maori"
+  },
+  {
+    "code": "mk",
+    "country": "Makedonia"
+  },
+  {
+    "code": "ml",
+    "country": "Malayalam"
+  },
+  {
+    "code": "mn",
+    "country": "Mongolia"
+  },
+  {
+    "code": "mr",
+    "country": "Marathi"
+  },
+  {
+    "code": "ms",
+    "country": "Melayu"
+  },
+  {
+    "code": "mt",
+    "country": "Malta"
+  },
+  {
+    "code": "mua",
+    "country": "Mundang"
+  },
+  {
+    "code": "my",
+    "country": "Burma"
+  },
+  {
+    "code": "mzn",
+    "country": "Mazanderani"
+  },
+  {
+    "code": "naq",
+    "country": "Nama"
+  },
+  {
+    "code": "nb",
+    "country": "Bokmål Norwegia"
+  },
+  {
+    "code": "nd",
+    "country": "Ndebele Utara"
+  },
+  {
+    "code": "nds",
+    "country": "Jerman Rendah"
+  },
+  {
+    "code": "ne",
+    "country": "Nepali"
+  },
+  {
+    "code": "nl",
+    "country": "Belanda"
+  },
+  {
+    "code": "nmg",
+    "country": "Kwasio"
+  },
+  {
+    "code": "nn",
+    "country": "Nynorsk Norwegia"
+  },
+  {
+    "code": "nnh",
+    "country": "Ngiemboon"
+  },
+  {
+    "code": "nus",
+    "country": "Nuer"
+  },
+  {
+    "code": "nyn",
+    "country": "Nyankole"
+  },
+  {
+    "code": "om",
+    "country": "Oromo"
+  },
+  {
+    "code": "or",
+    "country": "Oriya"
+  },
+  {
+    "code": "os",
+    "country": "Ossetia"
+  },
+  {
+    "code": "pa",
+    "country": "Punjabi"
+  },
+  {
+    "code": "pl",
+    "country": "Polski"
+  },
+  {
+    "code": "ps",
+    "country": "Pashto"
+  },
+  {
+    "code": "pt",
+    "country": "Portugis"
+  },
+  {
+    "code": "qu",
+    "country": "Quechua"
+  },
+  {
+    "code": "rm",
+    "country": "Reto-Roman"
+  },
+  {
+    "code": "rn",
+    "country": "Rundi"
+  },
+  {
+    "code": "ro",
+    "country": "Rumania"
+  },
+  {
+    "code": "rof",
+    "country": "Rombo"
+  },
+  {
+    "code": "ru",
+    "country": "Rusia"
+  },
+  {
+    "code": "rw",
+    "country": "Kinyarwanda"
+  },
+  {
+    "code": "rwk",
+    "country": "Rwa"
+  },
+  {
+    "code": "sah",
+    "country": "Sakha"
+  },
+  {
+    "code": "saq",
+    "country": "Samburu"
+  },
+  {
+    "code": "sbp",
+    "country": "Sangu"
+  },
+  {
+    "code": "sd",
+    "country": "Sindhi"
+  },
+  {
+    "code": "se",
+    "country": "Sami Utara"
+  },
+  {
+    "code": "seh",
+    "country": "Sena"
+  },
+  {
+    "code": "ses",
+    "country": "Koyraboro Senni"
+  },
+  {
+    "code": "sg",
+    "country": "Sango"
+  },
+  {
+    "code": "shi",
+    "country": "Tachelhit"
+  },
+  {
+    "code": "si",
+    "country": "Sinhala"
+  },
+  {
+    "code": "sk",
+    "country": "Slovak"
+  },
+  {
+    "code": "sl",
+    "country": "Sloven"
+  },
+  {
+    "code": "smn",
+    "country": "Inari Sami"
+  },
+  {
+    "code": "sn",
+    "country": "Shona"
+  },
+  {
+    "code": "so",
+    "country": "Somalia"
+  },
+  {
+    "code": "sq",
+    "country": "Albania"
+  },
+  {
+    "code": "sr",
+    "country": "Serbia"
+  },
+  {
+    "code": "sv",
+    "country": "Swedia"
+  },
+  {
+    "code": "sw",
+    "country": "Swahili"
+  },
+  {
+    "code": "ta",
+    "country": "Tamil"
+  },
+  {
+    "code": "te",
+    "country": "Telugu"
+  },
+  {
+    "code": "teo",
+    "country": "Teso"
+  },
+  {
+    "code": "tg",
+    "country": "Tajik"
+  },
+  {
+    "code": "th",
+    "country": "Thai"
+  },
+  {
+    "code": "ti",
+    "country": "Tigrinya"
+  },
+  {
+    "code": "tk",
+    "country": "Turkmen"
+  },
+  {
+    "code": "to",
+    "country": "Tonga"
+  },
+  {
+    "code": "tr",
+    "country": "Turki"
+  },
+  {
+    "code": "tt",
+    "country": "Tatar"
+  },
+  {
+    "code": "twq",
+    "country": "Tasawaq"
+  },
+  {
+    "code": "tzm",
+    "country": "Tamazight Maroko Tengah"
+  },
+  {
+    "code": "ug",
+    "country": "Uyghur"
+  },
+  {
+    "code": "uk",
+    "country": "Ukraina"
+  },
+  {
+    "code": "ur",
+    "country": "Urdu"
+  },
+  {
+    "code": "uz",
+    "country": "Uzbek"
+  },
+  {
+    "code": "vai",
+    "country": "Vai"
+  },
+  {
+    "code": "vi",
+    "country": "Vietnam"
+  },
+  {
+    "code": "vun",
+    "country": "Vunjo"
+  },
+  {
+    "code": "wae",
+    "country": "Walser"
+  },
+  {
+    "code": "wo",
+    "country": "Wolof"
+  },
+  {
+    "code": "xh",
+    "country": "Xhosa"
+  },
+  {
+    "code": "xog",
+    "country": "Soga"
+  },
+  {
+    "code": "yav",
+    "country": "Yangben"
+  },
+  {
+    "code": "ji",
+    "country": "Yiddish"
+  },
+  {
+    "code": "yo",
+    "country": "Yoruba"
+  },
+  {
+    "code": "yue",
+    "country": "Kanton"
+  },
+  {
+    "code": "zgh",
+    "country": "Tamazight Maroko Standar"
+  },
+  {
+    "code": "zh",
+    "country": "Tionghoa"
+  },
+  {
+    "code": "zu",
+    "country": "Zulu"
+  }
+]

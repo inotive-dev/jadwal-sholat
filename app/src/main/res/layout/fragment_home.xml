@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:visibility="visible"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context=".ui.home.HomeFragment">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layout_header"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/background_gradient_top_drawable"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/layout_content"
+                android:nextFocusDown="@id/layout_content"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tv_name_masjid"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline4"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="Masjid Nurul Falah" />
+
+                <TextView
+                    android:id="@+id/tv_address_masjid"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="32dp"
+                    android:maxLines="2"
+                    android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle2"
+                    android:textColor="#E1E1E1"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/lin_date"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_name_masjid"
+                    tools:text="Jl Sepinggan II 87 RT 054/06,Sepinggan, Balikpapan Selatan, Balikpapan 0542 763509" />
+
+                <LinearLayout
+                    android:id="@+id/lin_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/tv_time"
+                    app:layout_constraintHorizontal_bias="0.8"
+                    app:layout_constraintStart_toEndOf="@+id/tv_name_masjid"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                        android:textColor="@android:color/white"
+                        tools:text="Rabu, 15 September 2021" />
+
+                    <View
+                        android:id="@+id/view_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/tv_date_hijri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                        android:textColor="@android:color/white"
+                        tools:text="8 Shafar 1443 H" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline2"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="23.88.88" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/layout_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/black"
+                    android:nextFocusUp="@id/layout_header"
+                    android:nextFocusDown="@id/layout_header">
+
+                    <FrameLayout
+                        android:id="@+id/frame_slide"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/default_bg" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_iqomah_now"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tv_big"
+                        android:textStyle="bold"
+                        android:visibility="gone"
+                        tools:text="info"
+                        tools:visibility="visible" />
+
+                    <com.display.sholat.util.AutoTextSizeView
+                        android:id="@+id/tv_iqomah"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="30dp"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        tools:visibility="visible" />
+
+                    <FrameLayout
+                        android:id="@+id/fulClock"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        tools:visibility="visible">
+
+                        <com.display.sholat.util.AutoTextSizeView
+                            android:id="@+id/tv_time2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="30dp"
+                            android:gravity="center"
+                            android:padding="30dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:layout_marginBottom="80dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_date2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                                android:textColor="@android:color/background_light"
+                                android:textSize="36sp" />
+
+                            <View
+                                android:id="@+id/view_line2"
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@android:color/background_light" />
+
+                            <TextView
+                                android:id="@+id/tv_date_hijri2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                                android:textColor="@android:color/background_light"
+                                android:textSize="36sp" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/view_running"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="20dp"
+                        android:scrollbars="none"
+                        android:visibility="gone"
+                        tools:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/tv_running_text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:maxLines="2"
+                            android:textColor="@android:color/white"
+                            android:textSize="36sp"
+                            tools:layout_gravity="center"
+                            tools:text="Doa adalah inti ibadah (HR Tirmizi)" />
+
+                    </FrameLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/layout_info"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/background_gradient_top_drawable"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_running_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline5"
+                        android:textColor="@android:color/white"
+                        tools:layout_gravity="center"
+                        tools:text="Doa adalah inti ibadah (HR Tirmizi)" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_footer"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/background_gradient_top_drawable"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <include
+                    android:id="@+id/card_subuh"
+                    layout="@layout/layout_item_card"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/card_syuruq"
+                    layout="@layout/layout_item_card"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/card_zhuhur"
+                    layout="@layout/layout_item_card"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/card_ashar"
+                    layout="@layout/layout_item_card"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/card_magrib"
+                    layout="@layout/layout_item_card"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/card_isya"
+                    layout="@layout/layout_item_card"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clock_Fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_round_alpha_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:foregroundGravity="fill"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/background_desc"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_background_mosque" />
+
+            <TextView
+                android:id="@+id/tv_time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline2"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tv_big"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.4"
+                tools:text="23.88.88" />
+
+            <LinearLayout
+                android:id="@+id/lin_date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="@+id/tv_time2"
+                app:layout_constraintStart_toStartOf="@+id/tv_time2"
+                app:layout_constraintTop_toBottomOf="@+id/tv_time2">
+
+                <TextView
+                    android:id="@+id/tv_date2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    tools:text="Rabu, 15 September 2021" />
+
+                <View
+                    android:id="@+id/view_line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tv_date_hijri2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    tools:text="8 Shafar 1443 H" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

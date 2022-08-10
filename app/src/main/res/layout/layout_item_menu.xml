@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:background="#44000000"
+        android:focusableInTouchMode="true">
+
+        <View
+            android:id="@+id/select"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_gravity="start"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:textColor="@android:color/white"
+            android:alpha="0.6"
+            android:layout_marginStart="20dp"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+            tools:text="Waktu dan Tanggal"/>
+
+    </FrameLayout>
+
+</layout>

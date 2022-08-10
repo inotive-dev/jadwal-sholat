@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.settings.prayer.PrayerSettingFragment"
+        tools:background="@drawable/background_gradient_top_drawable">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="@string/title_edit_schedule_prayer"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline5"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/lin_setting"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/lin_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:minHeight="270dp"
+            android:minWidth="650dp"
+            android:background="@drawable/background_round_alpha"
+            android:orientation="vertical"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:paddingTop="22dp"
+            android:paddingBottom="22dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title"
+            app:layout_constraintVertical_bias="0.43">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/lokasiNegara"
+                        layout="@layout/layout_item_menu_edit"
+                        android:nextFocusLeft="@id/menu_jadwal_shalat"
+                        android:nextFocusUp="@id/btn_update"
+                        android:nextFocusDown="@id/lokasi"/>
+
+                    <include
+                        android:id="@+id/lokasi"
+                        layout="@layout/layout_item_menu_edit"
+                        android:nextFocusLeft="@id/menu_jadwal_shalat"
+                        android:nextFocusUp="@id/lokasiNegara"
+                        android:nextFocusDown="@id/btn_refresh"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="4dp">
+
+                        <TextView
+                            android:id="@+id/txt_prayer"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.6"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="6dp"
+                            android:textColor="@android:color/white"
+                            style="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                            android:text="@string/time_prayer"/>
+
+                        <TextView
+                            android:id="@+id/txt_iqomah"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginEnd="6dp"
+                            android:textColor="@android:color/white"
+                            style="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                            android:text="@string/iqomah"/>
+
+
+                        <TextView
+                            android:id="@+id/txt_sunnah"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:textAlignment="center"
+                            android:layout_marginEnd="6dp"
+                            android:textColor="@android:color/white"
+                            style="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+                            android:text="@string/sunnah_fasting"/>
+
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/syuruq"
+                        layout="@layout/layout_item_menu_edit2" />
+
+                    <include
+                        android:id="@+id/shubu"
+                        layout="@layout/layout_item_menu_edit2" />
+
+                    <include
+                        android:id="@+id/zhuhur"
+                        layout="@layout/layout_item_menu_edit2" />
+
+                    <include
+                        android:id="@+id/ashar"
+                        layout="@layout/layout_item_menu_edit2" />
+
+                    <include
+                        android:id="@+id/magrib"
+                        layout="@layout/layout_item_menu_edit2" />
+
+                    <include
+                        android:id="@+id/isha"
+                        layout="@layout/layout_item_menu_edit2" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/lin_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="@+id/lin_setting"
+                app:layout_constraintTop_toBottomOf="@+id/lin_setting">
+
+                <Button
+                    android:id="@+id/btn_refresh"
+                    style="@style/ButtonStyleOutline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/refresh_data"
+                    android:nextFocusLeft="@id/menu_jadwal_shalat"
+                    android:nextFocusUp="@id/lokasi"
+                    android:nextFocusRight="@id/btn_update"
+                    />
+
+                <Button
+                    android:id="@+id/btn_update"
+                    style="@style/ButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/update"
+                    android:nextFocusLeft="@id/btn_refresh"
+                    android:nextFocusUp="@id/lokasi"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

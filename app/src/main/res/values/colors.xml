@@ -1,0 +1,11 @@
+<resources>
+    <color name="selected_background">#ffaa3f</color>
+    <color name="default_background">#3d3d3d</color>
+    <color name="select_background">#40000000</color>
+    <color name="text_color_select">#D2D2D2</color>
+
+    <color name="color_primary">#2B5DA7</color>
+    <color name="color_accent">#102E5D</color>
+    <color name="color_secondary">#102E5D</color>
+
+</resources>

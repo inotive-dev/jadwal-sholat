@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="360dp"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:background="@drawable/background_dialog">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline6"
+                android:textColor="@android:color/white"
+                android:text="@string/title_add_slideshow"/>
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_baseline_close_24"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clipToPadding="false"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+
+                <include
+                    android:id="@+id/upload"
+                    android:backgroundTint="#9CA8BB"
+                    layout="@layout/layout_item_menu2" />
+
+                <include
+                    android:id="@+id/prayer"
+                    android:backgroundTint="#9CA8BB"
+                    layout="@layout/layout_item_menu2" />
+
+                <include
+                    android:id="@+id/duration"
+                    android:backgroundTint="#9CA8BB"
+                    layout="@layout/layout_item_menu2" />
+
+                <include
+                    android:id="@+id/schedule"
+                    android:backgroundTint="#9CA8BB"
+                    layout="@layout/layout_item_menu2" />
+
+                <include
+                    android:id="@+id/schedule_time"
+                    android:backgroundTint="#9CA8BB"
+                    layout="@layout/layout_item_menu2" />
+
+                <CheckBox
+                    android:id="@+id/cb_fullscreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:buttonTint="@android:color/white"
+                    android:text="@string/full_background" />
+
+                <CheckBox
+                    android:id="@+id/cb_showclock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:buttonTint="@android:color/white"
+                    android:text="@string/showclock" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_ok"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/set" />
+
+    </LinearLayout>
+</layout>
